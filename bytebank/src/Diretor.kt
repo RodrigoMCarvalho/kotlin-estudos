@@ -5,6 +5,8 @@ class Diretor(nome: String,
               val senha: Int
 ) : Funcionario(nome, cpf, salario) {
 
+    override val bonificacao: Double = salario * 0.3
+
     fun autentica(senha: Int) : Boolean {
         if (this.senha == senha) {
             return true
