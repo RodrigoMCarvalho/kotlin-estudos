@@ -1,3 +1,4 @@
+import modelo.Conta
 
 fun testaComportamentoConta() {
     //testarLacos()

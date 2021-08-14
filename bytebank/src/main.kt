@@ -1,3 +1,7 @@
+import modelo.Diretor
+import modelo.Gerente
+import teste.CalculadoraBonificacao
+
 fun main() {
     println("Bem vindo ao Bytebanck")
     //testaComportamentoConta()

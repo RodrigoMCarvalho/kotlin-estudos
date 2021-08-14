@@ -1,4 +1,4 @@
-
+package modelo
 class Conta(val titular: String, val numero: Int) {
     var saldo = 0.0
         private set
@@ -31,7 +31,7 @@ class Conta(val titular: String, val numero: Int) {
     }
 
     override fun toString(): String {
-        return "Conta(titular='$titular', numero=$numero, saldo=$saldo)"
+        return "modelo.Conta(titular='$titular', numero=$numero, saldo=$saldo)"
     }
 
 
