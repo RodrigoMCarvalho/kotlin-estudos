@@ -1,4 +1,4 @@
-package modelo
+package br.com.alura.bytebanck.modelo
 abstract class Funcionario(
         val nome: String,
         val cpf: String,
