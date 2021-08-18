@@ -3,7 +3,7 @@ package br.com.alura.bytebanck.teste
 fun main() {
     val idades: IntArray = intArrayOf(25, 19, 33, 88, 55, 40)
 
-    var menorIdade = Int.MAX_VALUE;
+    var menorIdade = Int.MAX_VALUE
     idades.forEach { idade ->
         if (idade < menorIdade) {
             menorIdade = idade
