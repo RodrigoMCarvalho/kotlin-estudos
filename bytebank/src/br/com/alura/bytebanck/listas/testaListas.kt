@@ -39,7 +39,7 @@ fun List<Livro?>.imprimeComMarcadores() {
     val textoFormatado = this
         .filterNotNull()
         .joinToString("\n") {
-        " - ${it.titulo} de ${it?.autor} publicado em ${it.anoPublicacao}"
+        " - ${it.titulo} de ${it.autor} publicado em ${it.anoPublicacao}"
     }
     println(" #### Lista de livros #### \n$textoFormatado")
 }
