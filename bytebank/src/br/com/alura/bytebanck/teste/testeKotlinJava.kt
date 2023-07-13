@@ -1,3 +1,4 @@
+import br.com.alura.bytebanck.modelo.Usuario
 import java.util.stream.Collectors
 
 fun main() {
